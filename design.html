@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <link rel="stylesheet" href="design4.css"/>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid d-flex justify-content-end">
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header text-center">
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Models">Models</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Reviews">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#About">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a class="navbar-brand mx-auto" href="#">Luxum</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span><i class="bi bi-person"></i></span>
+                        <span class="icon-space"></span> <!-- Ajout de l'espace -->
+                        <span><i class="bi bi-cart"></i></span> <!-- Icône du panier -->
+                    </a>
+                </li>
+            </ul>            
+        </div>
+    </nav>
+    
+    <section class="box d-flex justify-content-center align-items-center">
+        <video src="R35.mp4" autoplay muted loop></video>
+        <div class="text-center">
+            <h1 class="animate__animated animate__fadeInDown">Discover</h1>
+            <h3 class="animate__animated animate__fadeInUp">Find your dream car in Lux</h3>
+            <a href="#" class="boxBtn btn btn-primary animate__animated animate__slideInRight">Contact Us</a>
+        </div>
+    </section>
+    
+    
+    <section class="Models" id="Models">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="image/image1.jpg" class="card-img-top mb-3 img-fluid" alt="Model 1">
+                            <h5 class="card-title mb-3">Mercedes-AMG GT 63 4MATIC+</h5>
+                            <p class="card-text"><i class="bi bi-speedometer2"></i> 12,000 KM | <i class="bi bi-droplet"></i> Essence | <i class="bi bi-gear"></i> Automatique</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="image/mercedes.jpg" class="card-img-top mb-3 img-fluid" alt="Model 1">
+                            <h5 class="card-title mb-3">Mercedes Class G</h5>
+                            <p class="card-text"><i class="bi bi-speedometer2"></i> 310 KM | <i class="bi bi-droplet"></i> Essence | <i class="bi bi-gear"></i> Automatique</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="image/rouge.jpg" class="card-img-top mb-3 img-fluid" alt="Model 1">
+                            <h5 class="card-title mb-3">Volkswagen Tegouan Life Plus</h5>
+                            <p class="card-text"><i class="bi bi-speedometer2"></i> 80,000 KM | <i class="bi bi-droplet"></i> Essence | <i class="bi bi-gear"></i> Automatique</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="Reviews" id="Reviews">
+        <div class="container">
+            <h2>Reviews</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-person-circle fs-3 me-3"></i>
+                                <h5 class="card-title">Hocin chekroune</h5>
+                            </div>
+                            <p class="card-text">bien</p>
+                            <p class="card-text"><small class="text-muted">★ ★ ★ ★ ☆</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-person-circle fs-3 me-3"></i>
+                                <h5 class="card-title">Ahcen chekroune</h5>
+                            </div>
+                            <p class="card-text">tres bien.</p>
+                            <p class="card-text"><small class="text-muted">★ ★ ★ ☆ ☆</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-person-circle fs-3 me-3"></i>
+                                <h5 class="card-title">Sondos Laoubi</h5>
+                            </div>
+                            <p class="card-text">bien</p>
+                            <p class="card-text"><small class="text-muted">★ ★ ☆ ☆ ☆</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+
+    <section class="About" id="About">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8">
+                    <div class="card  border-radius-52 border-2 black">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="image/About.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">About</h5>
+                                    <p class="card-text"></p>
+                                    <p class="card-text"><small class="text-muted"></small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section class="Contact" id="Contact">
+    <div class="container">
+        <!-- Div distincte pour la carte -->
+        <div id="map"></div>
+    </div>
+</section>
+
+<script>
+    // Fonction d'initialisation de la carte
+    function initMap() {
+        // Coordonnées de l'Université de Bouira "Akli Mohand Oulhadj"
+        var universityLocation = { lat: 36.3754, lng: 3.8967 }; // Exemple de coordonnées pour Bouira
+        
+        // Création d'une nouvelle carte Google Maps centrée sur l'emplacement spécifié
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15, // Niveau de zoom initial
+            center: universityLocation // Centre de la carte
+        });
+
+        // Ajout d'un marqueur à l'emplacement de l'Université
+        var marker = new google.maps.Marker({
+            position: universityLocation,
+            map: map,
+            title: 'Université de Bouira "Akli Mohand Oulhadj"' // Titre du marqueur
+        });
+    }
+</script>
+
+<!-- Appel de la fonction d'initialisation de la carte -->
+<script>
+    // Attendre que le DOM soit chargé avant d'appeler initMap()
+    document.addEventListener('DOMContentLoaded', function() {
+        initMap();
+    });
+</script>
+
+
+     
+   
+
+    
+
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; Lux</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#"><i class="bi bi-facebook text-white me-3"></i></a>
+                    <a href="#"><i class="bi bi-instagram text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+   
+</body>
+</html>
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+#icon{
+
+    font-size: 24px; /* Taille de l'icône */
+    position: absolute; /* Position absolue pour le placer où vous le souhaitez */
+    top: 23px; /* Position en haut */
+    right: 40px; /* Position à droite */
+    width:  60px;
+    cursor: pointer;
+}
+<script>
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+        // Change the icon based on the theme
+        if (document.body.classList.contains("dark-theme")) {
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
+        } else {
+            icon.classList.remove("fa-sun");
+            icon.classList.add("fa-moon");
+        }
+    }
+</script>
+header .logo{
+	font-size: 20px;
+	color:var(--primary-color);
+	font-weight: bolder;
+	text-decoration: none;
+	transition: all .42s;
+}
+header .navbar a{
+	font-size: 18px;
+	padding: 2 3.5rem;
+	color: var(--primary-color);
+	font-weight: bolder;
+	text-decoration: none;
+    transition: all .42s;
+    
+}
+.nav-btn{
+    font-size: 17px;
+    color: var(--primary-color);
+    font-weight: bolder;
+    border: 2px solid ;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-right: 5px;
+    transition: all .42s;
+}
+.nav-btn:hover{
+    background-color: #fab914de;
+    color: var(--primary-color);
+
+}
+.content{
+    
+    color: var(--primary-color);
+    position: absolute;
+    top: 35%;
+    left:5%;
+    font-size: 25px;
+    
+    
+
+}
+button{
+    width: 300px;
+    padding: 20px;
+    margin: 35px ;
+    border-radius: 10px;
+     color : var(--primary-color);
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid;
+    cursor: pointer;
+    font-weight: 700;
+    background: transparent;
+}
+button:hover{
+    color: var(--primary-color);
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
