@@ -21,5 +21,5 @@ Ce projet a été réalisé dans le but de concevoir une interface utilisateur p
 
 Projet basé sur le design (front-end uniquement), avec possibilité d’ajouter des fonctionnalités dynamiques à l’avenir.
 
-![cake](luxum1.png)
-![cake](luxum2.png)
+![luxum](luxum.png)
+![luxum](luxum2.png)
